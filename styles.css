@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(199, 199, 199);
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+  gap: 36px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 16px;
+}
+.title,
+.top-right,
+.top-left {
+  padding: 16px 96px;
+  background-color: #1f2937;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.main {
+  font-size: 48px;
+  font-weight: 900;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+.top-right {
+  height: auto;
+  width: 700px;
+  background-color: #9c9a9a86;
+  margin: 16px 96px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.top-left {
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+.button {
+  margin: 18px 0px;
+  padding: 4px 25px;
+  border-radius: 7px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+}
+.mid {
+  display: flex;
+  flex: 1;
+  gap: 36px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 144px;
+}
+.mid-img {
+  height: 160px;
+  width: 160px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  text-align: center;
+}
+.title-mid {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 36px;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 144px 288px;
+}
+.p1 {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.p2 {
+  margin-left: auto;
+  font-size: large;
+  font-weight: 1000;
+}
+.bottom {
+  background-color: #3882f6;
+  padding: 36px 72px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  gap: 288px;
+  border-radius: 7px;
+  color: #e5e7eb;
+  margin: 72px auto;
+}
+.button-p {
+  margin: 18px 0px;
+  padding: 4px 25px;
+  border-radius: 7px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  margin: auto;
+}
+.footer {
+  padding: 36px 72px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+}
